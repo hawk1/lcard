@@ -1,11 +1,15 @@
 import React from "react";
 import "./App.scss";
-import { CardList } from "./components/cardlist";
+import { Card } from "./card";
+import { CardList } from "./cardlist";
+import { carddata } from "./carddata.js";
 
 function App() {
   return (
     <div className="App">
-      <CardList />
+      <Card cdata={carddata[0]} />
+      <Card cdata={carddata[1]} />
+      <Card cdata={carddata[2]} />
     </div>
   );
 }
