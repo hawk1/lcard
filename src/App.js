@@ -7,9 +7,10 @@ import { carddata } from "./carddata.js";
 function App() {
   return (
     <div className="App">
-      <Card cdata={carddata[0]} />
+      {/* <Card cdata={carddata[0]} />
       <Card cdata={carddata[1]} />
-      <Card cdata={carddata[2]} />
+      <Card cdata={carddata[2]} /> */}
+      <CardList cdata={carddata} />>
     </div>
   );
 }
