@@ -81,3 +81,15 @@ h4 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
+
+.flex_area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.flex_area .box_area {
+  background-color: #c4bcbc;
+  width: 230px;
+  margin: 0 5px 20px;
+}

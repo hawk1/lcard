@@ -1,7 +1,6 @@
 import React from "react";
-import "./cardlist.scss";
-import Card from "./card";
-import { carddata } from "./carddata.js";
+import "./CardList.scss";
+import Card from "./Card";
 
 export const CardList = props => (
   <div id="wrapper">
